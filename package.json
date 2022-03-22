@@ -1,6 +1,6 @@
 {
   "name": "@scorum/clappr-flvjs-playback",
-  "version": "3.3.0",
+  "version": "3.4.0",
   "description": "clappr flv playback based on flv.js",
   "main": "src/main.js",
   "scripts": {
@@ -16,6 +16,10 @@
   "repository": "https://github.com/scorum/clappr-flvjs-playback",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@clappr/core": "^0.4.17",
+    "flv.js": "^1.5.0"
   },
   "devDependencies": {
     "@babel/core": "^7.13.8",
