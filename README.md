@@ -50,19 +50,13 @@ The parameters of `flvjsConfig` are completely equal to the parameters of [flv.j
 Install dependencies:
 
 ```shell
-yarn install
+npm install
 ```
 
 Start HTTP dev server `http://localhost:8080`:
 
 ```shell
-yarn start
-```
-
-Upgrade packages to latest version:
-
-```shell
-yarn upgrade --latest
+npm start
 ```
 
 ## Build
@@ -70,7 +64,7 @@ yarn upgrade --latest
 Minified version of plugin will be placed at `dist/clappr-flvjs-playback.min.js`
 
 ```shell
-yarn build
+npm run build
 ```
 
 ## Lint
@@ -78,13 +72,13 @@ yarn build
 Run linter:
 
 ```shell
-yarn lint
+npm run lint
 ```
 
 Fix lint errors:
 
 ```shell
-yarn lint:fix
+npm run lint:fix
 ```
 
 ## Issues

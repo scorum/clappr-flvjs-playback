@@ -1,25 +1,22 @@
 {
-  "name": "clappr-flvjs-playback",
-  "version": "3.1.0",
+  "name": "@scorum/clappr-flvjs-playback",
+  "version": "3.3.0",
   "description": "clappr flv playback based on flv.js",
-  "main": "dist/clappr-flvjs-playback.min.js",
-  "files": [
-    "dist/clappr-flvjs-playback.min.js",
-    "README.md",
-    "LICENSE"
-  ],
+  "main": "src/main.js",
   "scripts": {
     "build": "webpack --mode production",
-    "prebuild": "yarn lint",
+    "prebuild": "npm run lint",
     "start": "webpack-dev-server --mode development",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "release": "standard-version",
-    "prepublishOnly": "yarn build"
+    "prepublishOnly": "npm run build"
   },
-  "author": "Andrey Filimonov <andrefilimono@gmail.com> (https://github.com/andrefilimono)",
   "license": "MIT",
-  "repository": "https://github.com/andrefilimono/clappr-flvjs-playback",
+  "repository": "https://github.com/scorum/clappr-flvjs-playback",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@babel/core": "^7.13.8",
     "@babel/preset-env": "^7.13.9",
